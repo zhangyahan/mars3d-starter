@@ -1,0 +1,4 @@
+import { Ion } from 'cesium'
+
+Ion.defaultAccessToken =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4ZWM3NjhkYS00NzQ0LTRmZDItOGFlMS01MDRlMmVkMWEwZjYiLCJpZCI6MzMzMDYsImlhdCI6MTYwNDM2NzM5OH0.rIekNbqhvzcIs6yQGtH3fbejVuEsCe881ls3kHPg-x0'
