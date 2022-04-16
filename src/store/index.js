@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import createVuexAlong from 'vuex-along'
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -8,6 +10,6 @@ export default new Vuex.Store({
   getters: {},
   mutations: {},
   actions: {},
-  plugins: [],
+  plugins: [createVuexAlong()],
   modules: {},
 })
