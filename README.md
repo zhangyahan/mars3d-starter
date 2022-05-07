@@ -5,4 +5,5 @@
 - vuex&vuex-along
 - vue-router
 - scss
-- eslint&prettierrc
+- eslint
+- vscode-settings

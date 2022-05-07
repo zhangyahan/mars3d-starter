@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "octref.vetur",
+    "Gruntfuggly.todo-tree",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "vscode-icons-team.vscode-icons",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag"
+  ]
+}
