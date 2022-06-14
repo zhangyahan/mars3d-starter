@@ -1,6 +1,45 @@
 {
-  "extends": "@antfu",
+  "extends": [
+    "@antfu/eslint-config-basic",
+    "plugin:vue/essential",
+    "plugin:vue/strongly-recommended",
+    "plugin:vue/recommended"
+  ],
   "rules": {
-      "dot-notation": [0] // 可以使用如 foo["bar"]
+    "dot-notation": [
+      0
+    ], // 可以使用如 foo["bar"]
+    "no-console": [
+      0
+    ],
+    "vue/max-attributes-per-line": "off",
+    "vue/no-v-html": "off",
+    "vue/require-prop-types": "off",
+    "vue/require-default-prop": "off",
+    "vue/multi-word-component-names": "off",
+    "vue/html-self-closing": [
+      "error",
+      {
+        "html": {
+          "void": "always",
+          "normal": "never",
+          "component": "always"
+        },
+        "svg": "always",
+        "math": "always"
+      }
+    ],
+    // reactivity transform
+    "vue/no-setup-props-destructure": "off",
+    "vue/component-tags-order": [
+      "error",
+      {
+        "order": [
+          "script",
+          "template",
+          "style"
+        ]
+      }
+    ]
   }
 }
